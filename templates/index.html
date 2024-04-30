@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haber Sayfalari ve Sayilari</title>
+</head>
+<body>
+    <form method="post">
+        Başlangıç Tarihi: <input type="date" name="start_date">
+        Bitiş Tarihi: <input type="date" name="end_date">
+        <button type="submit">Tablo Hazırla</button>
+    </form>
+    <div>
+        {{ table_html|safe }}
+    </div>
+</body>
+</html>
