@@ -1,0 +1,8 @@
+pandas
+google-api-python-client
+flask
+oauth2client
+sqlalchemy
+pymysql
+google_auth_oauthlib
+tldextract
